@@ -26,12 +26,12 @@ namespace MyApp// Note: actual namespace depends on the project name.
             string QuintaPosicion = nombres[4]; // Zulma
             string SextaPosicion = nombres[5]; // Kenia
 
-            double NotaPrimeraPosicion = PrimeraPosicion[0]; // 7.5
-            double NotaSegundaPosicion = SegundaPosicion[1]; // 9.5
-            double NotaTerceraPosicion = TerceraPosicion[2]; // 6.5
-            double NotaCuartaPosicion = CuartaPosicion[3]; // 10
-            double NotaQuintaPosicion = QuintaPosicion[4]; // 5.6
-            double NotaSextaPosicion = SextaPosicion[5]; // 8.9
+            double NotaPrimeraPosicion = notas_promedio[0]; // 7.5
+            double NotaSegundaPosicion = notas_promedio[1]; // 9.5
+            double NotaTerceraPosicion = notas_promedio[2]; // 6.5
+            double NotaCuartaPosicion = notas_promedio[3]; // 10
+            double NotaQuintaPosicion = notas_promedio[4]; // 5.6
+            double NotaSextaPosicion = notas_promedio[5]; // 8.9
 
             // ORDENAMIENTO DE ARREGLO
             Console.WriteLine("\n<<<<<< Mostrando los 6 alumnos de forma ascendente >>>>>>");
